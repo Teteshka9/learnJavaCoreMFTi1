@@ -24,4 +24,17 @@ class SumNumTest {
         SumNum calculator = new SumNum();
         assertEquals(expectedSum, calculator.sum(a, b));
     }
+
+
+    @ParameterizedTest
+    @CsvSource({
+            " 2, 7, 10",
+            "2, 2, 0",
+            "0, 10, -1"
+    })
+
+    void invalidNumSum(int a, int b, int expectedSum) {
+        SumNum calculator = new SumNum();
+        assertEquals(expectedSum, calculator.sum(a, b));
+    }
 }

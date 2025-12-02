@@ -49,6 +49,14 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version> <!-- укажите актуальную версию -->
+            <scope>provided</scope>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/com.mikemybytes/junit5-formatted-source -->
         <dependency>
             <groupId>com.mikemybytes</groupId>

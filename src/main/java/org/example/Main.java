@@ -41,8 +41,12 @@ public class Main {
         // ВОТ ТАК НАДО ГЕНЕРИРОВАТЬ СЛУЧАЙНЫЕ ЧИСЛА
 //        int rnd = ThreadLocalRandom.current().nextDouble();
 
-
-
-
+//        Конкатенация строк
+//        StringBuilder b = new StringBuilder();
+//
+//        for (int i = 0; i < numItems; i++) {
+//            b.append(lineForItem(i));
+//            return b.toString();
+//        }
     }
 }
